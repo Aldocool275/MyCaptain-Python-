@@ -1,0 +1,12 @@
+n=int(input("Enter the number of terms in a Fibonnaci series:"))
+num1=0
+num2=1
+print(num1,end=" ")
+print(num2,end=" ")
+i=2
+while i<=n:
+    num3=num1+num2
+    num1=num2
+    num2=num3
+    print(num3,end=" ")
+    i+=1
